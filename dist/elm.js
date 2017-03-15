@@ -10861,7 +10861,7 @@ var _user$project$Main$view = function (model) {
 												_0: _elm_lang$html$Html_Attributes$target('_blank'),
 												_1: {
 													ctor: '::',
-													_0: _elm_lang$html$Html_Attributes$href('https://github.com/chmar77/khmer-unicode-enhance'),
+													_0: _elm_lang$html$Html_Attributes$href('https://github.com/chmar77/hangul-khmer-pronunciation'),
 													_1: {ctor: '[]'}
 												}
 											},
