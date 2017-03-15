@@ -10052,7 +10052,7 @@ var _user$project$Main$model = {
 																																																					_0: {ctor: '_Tuple2', _0: '해', _1: 'ហេ'},
 																																																					_1: {
 																																																						ctor: '::',
-																																																						_0: {ctor: '_Tuple2', _0: '줘', _1: 'ឆ្វូ'},
+																																																						_0: {ctor: '_Tuple2', _0: '줘', _1: 'ឆ្វ'},
 																																																						_1: {
 																																																							ctor: '::',
 																																																							_0: {ctor: '_Tuple2', _0: '\n', _1: '\n'},
@@ -10765,24 +10765,31 @@ var _user$project$Main$view = function (model) {
 				ctor: '::',
 				_0: A2(
 					_elm_lang$html$Html$div,
+					{ctor: '[]'},
 					{
 						ctor: '::',
-						_0: _elm_lang$html$Html_Attributes$class('well'),
+						_0: _elm_lang$html$Html$text('សរសេរកូរ៉េនៅក្រោមនេះ'),
 						_1: {ctor: '[]'}
-					},
-					{
-						ctor: '::',
-						_0: A2(
-							_elm_lang$html$Html$textarea,
-							{
-								ctor: '::',
-								_0: _elm_lang$html$Html_Attributes$value(model.input),
-								_1: {
+					}),
+				_1: {
+					ctor: '::',
+					_0: A2(
+						_elm_lang$html$Html$div,
+						{
+							ctor: '::',
+							_0: _elm_lang$html$Html_Attributes$class('well'),
+							_1: {ctor: '[]'}
+						},
+						{
+							ctor: '::',
+							_0: A2(
+								_elm_lang$html$Html$textarea,
+								{
 									ctor: '::',
-									_0: _elm_lang$html$Html_Events$onInput(_user$project$Main$UserInput),
+									_0: _elm_lang$html$Html_Attributes$value(model.input),
 									_1: {
 										ctor: '::',
-										_0: _elm_lang$html$Html_Attributes$placeholder('សរសេរនៅទីនេះ'),
+										_0: _elm_lang$html$Html_Events$onInput(_user$project$Main$UserInput),
 										_1: {
 											ctor: '::',
 											_0: _elm_lang$html$Html_Attributes$class('form-control'),
@@ -10793,94 +10800,94 @@ var _user$project$Main$view = function (model) {
 											}
 										}
 									}
-								}
-							},
-							{ctor: '[]'}),
-						_1: {ctor: '[]'}
-					}),
-				_1: {
-					ctor: '::',
-					_0: A2(
-						_elm_lang$html$Html$hr,
-						{ctor: '[]'},
-						{ctor: '[]'}),
+								},
+								{ctor: '[]'}),
+							_1: {ctor: '[]'}
+						}),
 					_1: {
 						ctor: '::',
 						_0: A2(
-							_elm_lang$html$Html$div,
-							{
-								ctor: '::',
-								_0: _elm_lang$html$Html_Attributes$class('panel panel-primary'),
-								_1: {ctor: '[]'}
-							},
-							{
-								ctor: '::',
-								_0: A2(
-									_elm_lang$html$Html$div,
-									{
-										ctor: '::',
-										_0: _elm_lang$html$Html_Attributes$class('panel-heading'),
-										_1: {ctor: '[]'}
-									},
-									{
-										ctor: '::',
-										_0: A2(
-											_elm_lang$html$Html$h3,
-											{
-												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$class('panel-title'),
-												_1: {ctor: '[]'}
-											},
-											{
-												ctor: '::',
-												_0: _elm_lang$html$Html$text('លទ្ធិផល'),
-												_1: {ctor: '[]'}
-											}),
-										_1: {ctor: '[]'}
-									}),
-								_1: {
+							_elm_lang$html$Html$hr,
+							{ctor: '[]'},
+							{ctor: '[]'}),
+						_1: {
+							ctor: '::',
+							_0: A2(
+								_elm_lang$html$Html$div,
+								{
+									ctor: '::',
+									_0: _elm_lang$html$Html_Attributes$class('panel panel-primary'),
+									_1: {ctor: '[]'}
+								},
+								{
 									ctor: '::',
 									_0: A2(
 										_elm_lang$html$Html$div,
 										{
 											ctor: '::',
-											_0: _elm_lang$html$Html_Attributes$class('panel-body output clearfix'),
+											_0: _elm_lang$html$Html_Attributes$class('panel-heading'),
 											_1: {ctor: '[]'}
 										},
-										A2(_elm_lang$core$List$map, _user$project$Main$singleLetter, model.khmer)),
-									_1: {ctor: '[]'}
-								}
-							}),
-						_1: {
-							ctor: '::',
-							_0: A2(
-								_elm_lang$html$Html$span,
-								{ctor: '[]'},
-								{
-									ctor: '::',
-									_0: _elm_lang$html$Html$text('created by '),
+										{
+											ctor: '::',
+											_0: A2(
+												_elm_lang$html$Html$h3,
+												{
+													ctor: '::',
+													_0: _elm_lang$html$Html_Attributes$class('panel-title'),
+													_1: {ctor: '[]'}
+												},
+												{
+													ctor: '::',
+													_0: _elm_lang$html$Html$text('លទ្ធិផល'),
+													_1: {ctor: '[]'}
+												}),
+											_1: {ctor: '[]'}
+										}),
 									_1: {
 										ctor: '::',
 										_0: A2(
-											_elm_lang$html$Html$a,
+											_elm_lang$html$Html$div,
 											{
 												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$target('_blank'),
-												_1: {
-													ctor: '::',
-													_0: _elm_lang$html$Html_Attributes$href('https://github.com/chmar77/hangul-khmer-pronunciation'),
-													_1: {ctor: '[]'}
-												}
-											},
-											{
-												ctor: '::',
-												_0: _elm_lang$html$Html$text('chmar77'),
+												_0: _elm_lang$html$Html_Attributes$class('panel-body output clearfix'),
 												_1: {ctor: '[]'}
-											}),
+											},
+											A2(_elm_lang$core$List$map, _user$project$Main$singleLetter, model.khmer)),
 										_1: {ctor: '[]'}
 									}
 								}),
-							_1: {ctor: '[]'}
+							_1: {
+								ctor: '::',
+								_0: A2(
+									_elm_lang$html$Html$span,
+									{ctor: '[]'},
+									{
+										ctor: '::',
+										_0: _elm_lang$html$Html$text('created by '),
+										_1: {
+											ctor: '::',
+											_0: A2(
+												_elm_lang$html$Html$a,
+												{
+													ctor: '::',
+													_0: _elm_lang$html$Html_Attributes$target('_blank'),
+													_1: {
+														ctor: '::',
+														_0: _elm_lang$html$Html_Attributes$href('https://github.com/chmar77/hangul-khmer-pronunciation'),
+														_1: {ctor: '[]'}
+													}
+												},
+												{
+													ctor: '::',
+													_0: _elm_lang$html$Html$text('chmar77'),
+													_1: {ctor: '[]'}
+												}),
+											_1: {ctor: '[]'}
+										}
+									}),
+								_1: {ctor: '[]'}
+							}
 						}
 					}
 				}
