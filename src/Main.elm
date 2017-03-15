@@ -327,7 +327,7 @@ view model =
             ]
         , Html.span []
             [ text "created by "
-            , a [ target "_blank", href "https://github.com/chmar77/khmer-unicode-enhance" ] [ text "chmar77" ]
+            , a [ target "_blank", href "https://github.com/chmar77/hangul-khmer-pronunciation" ] [ text "chmar77" ]
             ]
         ]
 
