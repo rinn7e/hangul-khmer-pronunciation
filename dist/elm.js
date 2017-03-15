@@ -10443,7 +10443,7 @@ var _user$project$Main$model = {
 																	_0: {
 																		ctor: '_Tuple2',
 																		_0: _elm_lang$core$Native_Utils.chr('ᅯ'),
-																		_1: '្វូ'
+																		_1: '្វ'
 																	},
 																	_1: {
 																		ctor: '::',
