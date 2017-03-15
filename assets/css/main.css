@@ -24,7 +24,9 @@ body {
 .lyric-item .khmer{
   font-size:18px;
   color:#f515d6;
+  text-align:center;
 }
+
 .space{
   width:10px;
   height:10px;

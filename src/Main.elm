@@ -348,7 +348,7 @@ singleLetter khmerTuple =
     in
         div [ class ("lyric-item" ++ newline) ]
             [ cond
-            , div [ class "khmer" ] [ text (Tuple.second khmerTuple) ]
+            , div [ class "khmer" ] [ Html.span [] [ text (Tuple.second khmerTuple) ] ]
             , div [ class "korean" ] [ text (Tuple.first khmerTuple) ]
             ]
 
