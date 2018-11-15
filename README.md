@@ -5,4 +5,4 @@
 ចូលរួមកែសម្រួលដោយបើក issue នៅលើ github ទាំងអស់គ្នា
 
 ចូលតាមនេះ
-https://chmar77.github.io/hangul-khmer-pronunciation/
+https://rinn7e.github.io/hangul-khmer-pronunciation/
